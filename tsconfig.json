@@ -1,0 +1,10 @@
+{
+	"include": ["**/*.ts"],
+	"exclude": ["node_modules"],
+	"compilerOptions": {
+		"lib": ["es2015"],
+		"target": "es2015",
+		"moduleResolution": "Bundler",
+		"types": ["vitest/globals"]
+	}
+}
